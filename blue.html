@@ -1,0 +1,90 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="blue.css">
+    <script src="blue.js"></script>
+</head>
+
+<body>
+    <div class="parent">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Programs</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header">
+            <h1>BLUE OCEAN TECHNOLOGY</h1>
+            <h4>REGISTRATION FORM</h4>
+            <hr>
+        </div>
+        <div class="banner">
+            
+            <form>
+                <h3>Name: <input type="text" placeholder="fullname" id="fullname" name="fullname" class="textbox" /></h3>
+            <h3>password: <input type="password" placeholder="password" id="password" name="password" class="textbox" /></h3>
+            <h3>Email: <input type="text" placeholder="blueocean@gmail.com" id="email" name="email" class="textbox" /></h3>
+            <h3>Address: <input type="text" placeholder="Residencial address" id="address" name="address" class="textbox" /></h3>
+            <h3>Phone Number <input type="text" placeholder="07030000000" id="phone" name="phone" class="textbox" /></h3>
+            <h3>zipcode: <input type="text" placeholder="zipcode" id="zipcode" name="zipcode" class="textbox" /></h3>
+            <h3>Date of birth: <input type="date" placeholder="date" id="date" name="date" class="dropdown" /></h3>
+            <h3>Gender: <select name="Gender" id="gender" class="dropdown">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select></h3>
+            <h3>Marital Status: <select name="status" id="status" class="dropdown">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+            </select></h3>
+            <label for="program">Choose Program: </label>
+            <select name="program" id="program" class="dropdown program">
+                    <option value="web development">Web Development</option>
+                    <option value="Web Design">Web Design</option>
+                    <option value="progamming">Programming</option>
+                    <option value="sofware engineering">Software Engineering</option>
+                    <option value="java">java</option>
+                    <option value="ethical hacking">Ethical Hacking</option>
+                    <option value="AI">AI</option>
+                    <option value="cyber security">Cyber Security</option>
+            </select><br>
+            <label for="duration">Program Duration:  </label>
+            <select name="duration" id="duration" class="dropdown">
+                    <option value="six Months">Six Months</option>
+                    <option value="one year">One Year</option>
+            </select><br>
+            <p><input type="checkbox" id="policy" name="policy" /> I Accept with the <span>Terms</span> and <span>Private Policy</span></p>
+            <button class="btn" id="register" name="register" onclick="validateMyForm()">Register</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <script>
+        (function sayHello() {
+            alert("You Are Welcome");
+            console.log(value);
+        })();
+
+        sayHello();
+    </script>
+
+</body>
+
+</html>

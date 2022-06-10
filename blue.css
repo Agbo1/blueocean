@@ -1,0 +1,84 @@
+.parent {
+    min-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(to right bottom, rgb(255 25 255), rgba(255, 255, 255, 0.5));
+    padding-top: 2rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    margin-bottom: 6rem;
+    padding-left: 39rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    border-bottom: dotted;
+    border-color: darkslategray;
+}
+
+h4 {
+    margin-top: 0rem;
+    color: black;
+}
+
+.banner {
+    padding-left: 1rem;
+    padding-bottom: 6rem;
+}
+
+h3 {
+    color: black;
+    font-size: 15px;
+}
+
+.textbox {
+    width: 14rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding-left: 13px;
+}
+
+.dropdown {
+    width: 9rem;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.btn {
+    idth: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    background: #6c399a;
+    color: white;
+}
+
+.program {
+    margin-bottom: 17px;
+}
+
+h1 {
+    color: #48399a;
+}
